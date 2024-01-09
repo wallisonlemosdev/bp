@@ -1,0 +1,25 @@
+name: bp
+description: bp.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path_provider: ^2.0.10
+  visibility_detector: ^0.3.3
+  collection: ^1.16.0
+  better_player: ^0.0.83
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
